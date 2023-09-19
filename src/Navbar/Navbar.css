@@ -1,0 +1,158 @@
+.Main-header {
+  background-color: #A5BEEE;
+  height: 80px;
+  display: flex;
+  
+  
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo{
+  animation: my-gif-animation 1s infinite;
+  margin-left: 80px;
+  margin-right: 100px;
+}
+
+.navbar {
+  /* background-color: #333; */
+  display: flex;
+  gap: 50px;
+  width: 100%;
+  height: 36px;
+  font-size: 20px;
+  margin-right: 100px;
+}
+
+.navbar a {
+  color: #120B4D;
+  font-family: Borsok, cursive;
+  font-weight: 1000;
+}
+
+.navbar i {
+  padding-right: 10px;
+  color: grey;
+}
+
+.Home {
+  position: relative;
+}
+
+.Home::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  background-color: #FF7A8A;
+  transform: scaleX(0);
+  transition: transform 0.25s ease-out;
+}
+
+.Home:hover::after {
+  transform: scaleX(1);
+}
+
+.Get-document {
+  position: relative;
+}
+
+.Get-document::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  background-color: #FF7A8A;
+  transform: scaleX(0);
+  transition: transform 0.25s ease-out;
+}
+
+.Get-document:hover::after {
+  transform: scaleX(1);
+}
+
+.Issued-document {
+  position: relative;
+}
+
+.Issued-document::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  background-color: #FF7A8A;
+  transform: scaleX(0);
+  transition: transform 0.25s ease-out;
+}
+
+.Issued-document:hover::after {
+  transform: scaleX(1);
+}
+
+.About {
+  position: relative;
+}
+
+.About::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  background-color: #FF7A8A;
+  transform: scaleX(0);
+  transition: transform 0.25s ease-out;
+}
+
+.About:hover::after {
+  transform: scaleX(1);
+}
+
+.Help {
+  position: relative;
+}
+
+.Help::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  background-color: #FF7A8A;
+  transform: scaleX(0);
+  transition: transform 0.25s ease-out;
+}
+
+.Help:hover::after {
+  transform: scaleX(1);
+}
+/* .navbar.Home a:hover {
+  
+} */
+
+
+
+         
+
+  
+         
+
+
+
+
+
+         
+ 
+
