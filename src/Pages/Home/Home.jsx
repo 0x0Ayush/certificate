@@ -17,24 +17,24 @@ const Home = () => {
             <div className='form-box'>
               <div className='form'>
                 <h2>Register</h2>
-                <div className='input-box'>
-                  <input type='text' required></input>
-                  <label for=''>Username</label>
+                <div className='input-group'>
+                  <input type='text' id='username' className='input-group-input' required></input>
+                  <label for='' className='input-group-label'>Username</label>
                 </div>
 
-                <div className='input-box'>
-                  <input type='text' required></input>
-                  <label for=''>Gmail</label>
+                <div className='input-group'>
+                  <input type='text' className='input-group-input' required></input>
+                  <label for='' className='input-group-label'>Gmail</label>
                 </div>
 
-                <div className='input-box'>
-                  <input type='text' required></input>
-                  <label for=''>Mobile No.</label>
+                <div className='input-group'>
+                  <input type='text' className='input-group-input' required></input>
+                  <label for='' className='input-group-label'>Mobile No.</label>
                 </div>
 
-                <div className='input-box'>
-                  <input type='text' required></input>
-                  <label for=''>Age</label>
+                <div className='input-group'>
+                  <input type='text' className='input-group-input' required></input>
+                  <label for='' className='input-group-label'>Age</label>
                 </div>
 
                 <div className='register-button'>

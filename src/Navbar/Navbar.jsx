@@ -6,7 +6,7 @@ import logooo from'../images/logooo.gif';
 import profile from '../images/profile.png';
 // import Home from "../Pages/Home/Home";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faHouseChimney, faAward , faIdCard, faCircleInfo, faLightbulb} from "@fortawesome/free-solid-svg-icons";
+import { faUser, faAward , faIdCard, faCircleInfo, faLightbulb} from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
 // import { type } from "@testing-library/user-event/dist/types/utility";
 
@@ -15,63 +15,64 @@ const Navbar = () => {
 
   // const [hover, setHover] = useState(false);
 
-  const buttonStyle = {
-    background: '#BA5E00',
-    color: 'white',
-    width: '100px',
-    border: 'none',
-    padding: '15px 10px',
-    borderRadius: '5px',
-    cursor: 'pointer',
+  // const buttonStyle = {
+  //   background: '#ffffff',
+  //   color: 'navy',
+  //   width: '100px',
+  //   border: 'none',
+  //   padding: '15px 10px',
+  //   borderRadius: '5px',
+  //   cursor: 'pointer',
     
-  };
+    
+  // };
 
   
   return (
     
     <div className="Main-header">
-      <div className="header">
+      <div className="Header">
         <div className='logo'> 
-          <a href="/home">
+          <Link href="/home">
             <img src={logooo} type="video/gif/" autoPlay loop muted width={230} 
              
             /> 
-          </a>
+          </Link>
 
         </div>
 
         <nav className="navbar">
 
           <div className="Home">
-            <a href="/home">
-              <i><FontAwesomeIcon icon={faHouseChimney} className="Home-icon"   /></i> Home
-            </a>
+            <Link to="/home">
+              <i><FontAwesomeIcon icon={faUser} className="Home-icon"/></i> Profile
+            </Link>
           </div>
 
           <div className="Get-document">
-            <a href="/getdocument">
+            <Link to="/getdocument">
               <i><FontAwesomeIcon icon={faIdCard} className="Get-icon"/></i> Get Document
-              </a>
+              </Link>
           </div>
 
           <div className="Issued-document">
-            <a href="/issueddocument">
+            <Link to="/issueddocument">
               <i><FontAwesomeIcon icon={faAward} className="Issued-icon"/></i> Issued Document
-            </a>
+            </Link>
           </div>
 
           <div className="About">
-            <a href="/About">
-              <i><FontAwesomeIcon icon={faCircleInfo} className="About-icon"/></i> About</a>
+            <Link to="/About">
+              <i><FontAwesomeIcon icon={faCircleInfo} className="About-icon"/></i> About</Link>
           </div>
 
           <div className="Help">
-            <a href="/help">
-              <i><FontAwesomeIcon icon={faLightbulb} className="Help-icon"/></i> Help</a>
+            <Link to="/help">
+              <i><FontAwesomeIcon icon={faLightbulb} className="Help-icon"/></i> Help</Link>
           </div>
         </nav>
 
-        <ConnectWallet style={buttonStyle}/>
+        <ConnectWallet className="buttonn"/>
 
         {/* <div className="hero">
           <img src={profile} className="user-pic" ></img>
