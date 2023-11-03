@@ -68,7 +68,7 @@ const Navbar = () => {
 
           <div className="Help">
             <Link to="/help">
-              <i><FontAwesomeIcon icon={faLightbulb} className="Help-icon"/></i> Help</Link>
+              <i><FontAwesomeIcon icon={faLightbulb} className="Help-icon"/></i> Support</Link>
           </div>
         </nav>
 
