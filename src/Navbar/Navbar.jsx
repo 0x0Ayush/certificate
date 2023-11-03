@@ -51,7 +51,7 @@ const Navbar = () => {
 
           <div className="Get-document">
             <Link to="/getdocument">
-              <i><FontAwesomeIcon icon={faIdCard} className="Get-icon"/></i> Get Document
+              <i><FontAwesomeIcon icon={faIdCard} className="Get-icon"/></i> Your Document
               </Link>
           </div>
 

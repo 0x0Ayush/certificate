@@ -7,6 +7,8 @@ import Navbar from "./Navbar/Navbar";
 import Home from "./Pages/Home/Home";
 import About from "./Pages/About/About";
 import Help from "./Pages/Help/Help";
+import GetDocument from "./Pages/GetDocument/GetDocument";
+import IssuedDocument from "./Pages/IssuedDocument/IssuedDocument";
 // import Vault from "./Pages/vault/vault";
 
 export default function App() {
@@ -33,6 +35,8 @@ export default function App() {
               <Route path="/Home" element={<Home />} />
               <Route path="/About" element={<About />} />
               <Route path="/Help" element={<Help />} />
+              <Route path="/GetDocument" element={<GetDocument />} />
+              <Route path="/IssuedDocument" element={<IssuedDocument />} />
               {/* <Route path="/Vault" element={<Vault />} /> */}
 
             </Routes>
