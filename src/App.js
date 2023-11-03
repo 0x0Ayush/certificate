@@ -6,6 +6,7 @@ import "./styles/Home.css";
 import Navbar from "./Navbar/Navbar";
 import Home from "./Pages/Home/Home";
 import About from "./Pages/About/About";
+import Help from "./Pages/Help/Help";
 // import Vault from "./Pages/vault/vault";
 
 export default function App() {
@@ -31,6 +32,7 @@ export default function App() {
             <Routes>
               <Route path="/Home" element={<Home />} />
               <Route path="/About" element={<About />} />
+              <Route path="/Help" element={<Help />} />
               {/* <Route path="/Vault" element={<Vault />} /> */}
 
             </Routes>

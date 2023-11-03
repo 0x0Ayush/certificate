@@ -35,7 +35,7 @@ const Navbar = () => {
         <div className='logo'> 
           <Link href="/home">
             <img src={logooo} type="video/gif/" autoPlay loop muted width={230} 
-             
+            
             /> 
           </Link>
 

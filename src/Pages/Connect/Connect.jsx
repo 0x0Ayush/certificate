@@ -81,12 +81,12 @@ function Connect({ onConnect }) {
             <div className="conceptimg">
                 <div className="conceptuser">
                     <img src={image3} alt="People" />  
-                    <h1>194.62 Million</h1>      
+                    <h1>1 Million</h1>      
                     <h5>Registered Users</h5> 
                 </div>
                 <div className="conceptuser"> 
                     <img src={image4} alt="Logo" />  
-                    <h1>194.62 Million</h1>      
+                    <h1>1 Million</h1>      
                     <h5>Registered Users</h5>   
                 </div>
 
@@ -104,7 +104,6 @@ function Connect({ onConnect }) {
         <div className="homebuttonbottom">
           <button onClick={connectWallet}>Connect Wallet</button>
         </div>
-
       </div>
     </body>
     
