@@ -1,4 +1,4 @@
-# E-vault
+# E-vault (aka Web3 Digilocker)
 ## View live deployment: https://safe-heaven-evault.netlify.app/
 
 ## Run Locally
