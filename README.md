@@ -1,5 +1,5 @@
-# E-vault (aka Web3 Digilocker)
-## View live deployment: https://safe-heaven-evault.netlify.app/
+# Blockchain-Powered Certificate Verification System (aka Web3 Digilocker)
+## View live deployment: [https://certificate-rjev-git-main-0x0ayushs-projects.vercel.app/](https://certificate-rjev-git-main-0x0ayushs-projects.vercel.app/)
 
 ## Run Locally
 
