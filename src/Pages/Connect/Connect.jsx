@@ -44,7 +44,7 @@ function Connect({ onConnect }) {
            <img src={image1} alt="Logo" />
         </div>
         <div className="bannertext">
-            <h1> A Blockchain-based E-VAULT</h1>
+            <h1> A Blockchain-based Certificate Verification</h1>
             <p>
             It is a digital vault that uses blockchain technology to store and protect data. Blockchain is a distributed ledger technology that allows for secure, tamper-proof transactions. This makes it ideal for storing sensitive data, such as financial records, medical records, and legal documents.
             </p>
@@ -75,7 +75,7 @@ function Connect({ onConnect }) {
       <div className="concept">
          <div className="conceptflex">
             <div className="concepttext">
-                <h1>Secure Your Digital Assets with Our E-Vault</h1>
+                <h1>Secure Your Digital Assets with Our Certificate</h1>
                 <p>In today's digital world, our most important assets are often stored online. This includes everything from financial documents to personal photos and videos. Unfortunately, this also makes our digital assets vulnerable to cyberattacks.</p>
             </div>
             <div className="conceptimg">
